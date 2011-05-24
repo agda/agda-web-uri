@@ -1,0 +1,5 @@
+Agda URI Library
+================
+
+Simple bindings for parsing, processing and serializing URIs.
+It links against the Haskell Network.URI library.

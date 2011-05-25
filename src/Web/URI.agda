@@ -1,8 +1,9 @@
 open import Data.Bool using ( Bool ; true ; false ; _∨_ )
+open import Data.List.Primitive using ( #List ; [] ; _∷_ )
 open import Data.Maybe using ( Maybe ; just ; nothing )
+open import Data.Maybe.Primitive using ( #Maybe ; just ; nothing )
 open import Data.String using ( String )
-open import Web.URI.Primitive using
-  ( #URI ; #List ; #Maybe ; #toString ; #fromString ; #abs ; #rel ; [] ; _∷_ ; just ; nothing ) 
+open import Web.URI.Primitive using ( #URI ; #toString ; #fromString ; #abs ; #rel )
 open import Web.URI.Scheme using ( Scheme? ; http: )
 open import Web.URI.Port using ( Port? ; ε )
 

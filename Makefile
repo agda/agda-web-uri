@@ -1,6 +1,11 @@
 # Package information
 
 pkgid = agda-web-uri
+dependencies = agda-data-bindings
+
+# Dependency URIs
+
+export agda-data-bindings ?= https://github.com/agda/agda-data-bindings/tarball/v0.0.2
 
 # Include the Agda makefile
 
@@ -27,7 +32,7 @@ install-doc:
 	$(INSTALL) -D README $(docdir)
 	$(INSTALL) -D LICENSE $(docdir)
 
-install: install-agda install-html install-bin install-doc
+install: install-dependencies install-agda install-html install-bin install-doc
 
 clean:
 

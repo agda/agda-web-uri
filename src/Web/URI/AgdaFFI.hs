@@ -1,4 +1,4 @@
-module Web.URI.FFI where
+module Web.URI.AgdaFFI where
 
 import Data.Maybe (Maybe)
 import qualified Network.URI ( URI )
